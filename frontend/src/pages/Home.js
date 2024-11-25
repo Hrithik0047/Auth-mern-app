@@ -33,7 +33,7 @@ function Home() {
     //function definition to get product, product API call
     const fetchProducts = async () => {
         try {
-            const url = "https://deploy-mern-app-1-api.vercel.app/products";
+            const url = "https://auth-mern-app-api-ten.vercel.app/products";
             
             
             //object to pass header
