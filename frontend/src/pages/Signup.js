@@ -45,7 +45,7 @@ function Signup() {
         try {
 
             //here we can also run this locally by usin localhost route
-            const url = `https://deploy-mern-app-1-api.vercel.app/auth/signup`;
+            const url = `https://auth-mern-app-api-ten.vercel.app/auth/signup`;
 
             //we are calling api here, first para is url of api and second parameter is an object, and then we pass headers as objects, then we pass body, in body we pass SignupInfo object as a string
             const response = await fetch(url, {
